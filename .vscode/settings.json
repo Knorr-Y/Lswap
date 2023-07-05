@@ -22,15 +22,4 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
-  "search.useGlobalIgnoreFiles": true,
-  "search.useParentIgnoreFiles": true,
-  "search.exclude": {
-    "**/*.code-search": false,
-    "**/bower_components": false,
-    "**/node_modules": false
-  },
-  "files.exclude": {
-    "**/Thumbs.db": false
-  },
-  "search.useIgnoreFiles": true,
 }
