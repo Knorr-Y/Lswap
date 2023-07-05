@@ -1,8 +1,8 @@
 {
   "name": "@uniswap/interface",
-  "version": "1.1.0",
-  "description": "Uniswap Interface",
-  "homepage": "https://github.com/Knorr-Y/Lswap/",
+  "version": "1.2.0",
+  "description": "Lswap Interface",
+  "homepage": ".",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "ajv": "node scripts/compile-ajv-validators.js",
@@ -29,7 +29,7 @@
     "cypress:open": "cypress open --browser chrome --e2e",
     "cypress:run": "cypress run --browser chrome --e2e",
     "deduplicate": "yarn-deduplicate --strategy=highest",
-    "deploy": "yarn build && gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
